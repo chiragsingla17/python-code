@@ -1,0 +1,7 @@
+n=int(input())
+ar=list(map(int,input().split()))
+ar.sort()
+a=[0]
+for i in range(len(ar)):
+    a.append(a[i]+ar[i])
+print(a[len(ar)-1],a[len(ar)]-a[1])
