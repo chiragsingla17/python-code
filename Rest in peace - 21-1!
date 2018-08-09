@@ -1,0 +1,17 @@
+n=int(input())
+a=[]
+
+for i in range(n):
+    a.append(input())
+for b in a:
+    if int(b)%21==0:
+        
+        print("The streak is broken!")
+    else:
+        
+            
+            if '21' in b :
+                    print("The streak is broken!")
+                    
+            else:
+                print("The streak lives still in our heart!") 
